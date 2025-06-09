@@ -3,7 +3,8 @@
 #include <string.h>
 
 #define MAX_TAREFAS 100
-
+#define MAX_CAMPOS 4
+#define TAM_CAMPO 50
 
 int main() {
     char tarefas[MAX_TAREFAS][MAX_CAMPOS][TAM_CAMPO] = {0};
